@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la ~/.ssh/id_rsa.pub 2>&1)"
+    ]
+  }
+}
