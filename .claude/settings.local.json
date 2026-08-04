@@ -3,7 +3,10 @@
     "allow": [
       "Bash(ls -la ~/.ssh/id_rsa.pub 2>&1)",
       "Bash(git push *)",
-      "mcp__d1d6e34f-59b9-43d2-876e-9584ebd2ae3f__get-shop-info"
+      "mcp__d1d6e34f-59b9-43d2-876e-9584ebd2ae3f__get-shop-info",
+      "Bash(brew install *)",
+      "Bash(npm install *)",
+      "Bash(shopify version *)"
     ]
   }
 }
