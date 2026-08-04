@@ -6,7 +6,8 @@
       "mcp__d1d6e34f-59b9-43d2-876e-9584ebd2ae3f__get-shop-info",
       "Bash(brew install *)",
       "Bash(npm install *)",
-      "Bash(shopify version *)"
+      "Bash(shopify version *)",
+      "Bash(curl -sS -o /dev/null -w \"HTTP %{http_code}\\\\n\" https://yum-yum-plush.myshopify.com/admin/api/2026-07/graphql.json -X POST -H \"Content-Type: application/json\" -d '{}')"
     ]
   }
 }
