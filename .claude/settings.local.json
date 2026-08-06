@@ -7,7 +7,14 @@
       "Bash(brew install *)",
       "Bash(npm install *)",
       "Bash(shopify version *)",
-      "Bash(curl -sS -o /dev/null -w \"HTTP %{http_code}\\\\n\" https://yum-yum-plush.myshopify.com/admin/api/2026-07/graphql.json -X POST -H \"Content-Type: application/json\" -d '{}')"
+      "Bash(curl -sS -o /dev/null -w \"HTTP %{http_code}\\\\n\" https://yum-yum-plush.myshopify.com/admin/api/2026-07/graphql.json -X POST -H \"Content-Type: application/json\" -d '{}')",
+      "mcp__d1d6e34f-59b9-43d2-876e-9584ebd2ae3f__search_products",
+      "mcp__d1d6e34f-59b9-43d2-876e-9584ebd2ae3f__graphql_schema",
+      "Bash(curl -sI \"https://cdn.shopify.com/s/files/1/0836/8010/0581/files/images_1.jpg?v=1785670291\")",
+      "Bash(python3 -c ' *)",
+      "mcp__d1d6e34f-59b9-43d2-876e-9584ebd2ae3f__get-product",
+      "mcp__d1d6e34f-59b9-43d2-876e-9584ebd2ae3f__bulk-update-product-status",
+      "Bash(python3)"
     ]
   }
 }
