@@ -18,7 +18,11 @@
       "Bash(shopify theme *)",
       "Bash(curl -s \"https://yum-yum-plush.myshopify.com/\")",
       "Bash(curl -sIL \"https://yum-yum-plush.myshopify.com/\")",
-      "Bash(curl -s --compressed \"https://yum-yum-plush.myshopify.com/\")"
+      "Bash(curl -s --compressed \"https://yum-yum-plush.myshopify.com/\")",
+      "Bash(gh auth *)",
+      "Bash(jobs -l)",
+      "Bash(pkill -f \"gh auth login\")",
+      "Bash(ls -la ~/.config 2>&1 | head -20; echo \"---whoami---\"; whoami; echo \"---stat .config---\"; stat -f \"%Su %Sg %Sp\" ~/.config 2>&1)"
     ]
   }
 }
