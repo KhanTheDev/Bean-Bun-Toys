@@ -98,11 +98,19 @@
     "section_EXiexb": {
       "type": "section",
       "blocks": {
+        "custom_liquid_scrollFx": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>#shopify-section-hero_jVaWmY{position:sticky;top:0;z-index:0;}#shopify-section-section_EXiexb{position:relative;z-index:1;background:var(--color-background);}</style>"
+          },
+          "blocks": {}
+        },
         "text_riVq8d": {
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>BEAN BUN<br/>TOYS</h2>",
+            "text": "<h2>BEAN<br/>BUN</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -152,6 +160,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_scrollFx",
         "text_riVq8d",
         "text_3FDW9U"
       ],
