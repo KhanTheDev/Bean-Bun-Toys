@@ -22,7 +22,11 @@
       "Bash(gh auth *)",
       "Bash(jobs -l)",
       "Bash(pkill -f \"gh auth login\")",
-      "Bash(ls -la ~/.config 2>&1 | head -20; echo \"---whoami---\"; whoami; echo \"---stat .config---\"; stat -f \"%Su %Sg %Sp\" ~/.config 2>&1)"
+      "Bash(ls -la ~/.config 2>&1 | head -20; echo \"---whoami---\"; whoami; echo \"---stat .config---\"; stat -f \"%Su %Sg %Sp\" ~/.config 2>&1)",
+      "Bash(kill 64827 64825)",
+      "Bash(git fetch *)",
+      "Bash(curl -s \"https://yum-yum-plush.myshopify.com/?_=$\\(date +%s\\)\" -H \"Cache-Control: no-cache\")",
+      "Bash(ls -lat /private/tmp/claude-501/-Users-hariskhan-Documents-GitHub-Bean-Bun-Toys/677b2169-91af-4728-891b-ac056b16228f/ 2>&1 | head -20; echo \"---downloads recent---\"; ls -lat ~/Downloads/ 2>&1 | head -15)"
     ]
   }
 }
