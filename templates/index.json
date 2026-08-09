@@ -1048,16 +1048,23 @@
       "type": "section",
       "name": "t:names.section",
       "blocks": {
+        "cs_style": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>.color-custom-cs1_media,.color-custom-cs2_media,.color-custom-cs3_media{aspect-ratio:1;}</style>"
+          }
+        },
         "cs1_card": {
           "type": "group",
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "center",
-            "vertical_alignment": "center",
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 8,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 4,
             "width": "fill",
             "height": "fit"
           },
@@ -1070,7 +1077,7 @@
                 "vertical_alignment": "center",
                 "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 8,
                 "width": "fill",
                 "height": "fit",
                 "background_media": "none",
@@ -1078,53 +1085,55 @@
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 16,
-                "padding-block-start": 48,
-                "padding-block-end": 48,
-                "padding-inline-start": 16,
-                "padding-inline-end": 16
+                "border_radius": 4,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {
                 "cs1_icon": {
                   "type": "icon",
                   "settings": {
                     "icon": "question_mark",
-                    "width": 40,
+                    "width": 32,
                     "icon_color": "{{ settings.color_palette.color1 }}",
                     "link": ""
-                  }
-                },
-                "cs1_badge": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Coming Soon</p>",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "0.85rem",
-                    "line_height": "tight",
-                    "letter_spacing": "normal",
-                    "case": "uppercase",
-                    "wrap": "pretty",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "text_color": "{{ settings.color_palette.background }}",
-                    "background": true,
-                    "background_color": "{{ settings.color_palette.color1 }}",
-                    "corner_radius": 50,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0
                   }
                 }
               },
               "block_order": [
-                "cs1_icon",
-                "cs1_badge"
+                "cs1_icon"
               ]
+            },
+            "cs1_label": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Coming Soon</p>",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
             }
           },
           "block_order": [
-            "cs1_media"
+            "cs1_media",
+            "cs1_label"
           ]
         },
         "cs2_card": {
@@ -1132,11 +1141,11 @@
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "center",
-            "vertical_alignment": "center",
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 8,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 4,
             "width": "fill",
             "height": "fit"
           },
@@ -1149,7 +1158,7 @@
                 "vertical_alignment": "center",
                 "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 8,
                 "width": "fill",
                 "height": "fit",
                 "background_media": "none",
@@ -1157,53 +1166,55 @@
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 16,
-                "padding-block-start": 48,
-                "padding-block-end": 48,
-                "padding-inline-start": 16,
-                "padding-inline-end": 16
+                "border_radius": 4,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {
                 "cs2_icon": {
                   "type": "icon",
                   "settings": {
                     "icon": "question_mark",
-                    "width": 40,
+                    "width": 32,
                     "icon_color": "{{ settings.color_palette.color1 }}",
                     "link": ""
-                  }
-                },
-                "cs2_badge": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Coming Soon</p>",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "0.85rem",
-                    "line_height": "tight",
-                    "letter_spacing": "normal",
-                    "case": "uppercase",
-                    "wrap": "pretty",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "text_color": "{{ settings.color_palette.background }}",
-                    "background": true,
-                    "background_color": "{{ settings.color_palette.color1 }}",
-                    "corner_radius": 50,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0
                   }
                 }
               },
               "block_order": [
-                "cs2_icon",
-                "cs2_badge"
+                "cs2_icon"
               ]
+            },
+            "cs2_label": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Coming Soon</p>",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
             }
           },
           "block_order": [
-            "cs2_media"
+            "cs2_media",
+            "cs2_label"
           ]
         },
         "cs3_card": {
@@ -1211,11 +1222,11 @@
           "settings": {
             "content_direction": "column",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "center",
-            "vertical_alignment": "center",
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 8,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 4,
             "width": "fill",
             "height": "fit"
           },
@@ -1228,7 +1239,7 @@
                 "vertical_alignment": "center",
                 "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 8,
                 "width": "fill",
                 "height": "fit",
                 "background_media": "none",
@@ -1236,67 +1247,70 @@
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 16,
-                "padding-block-start": 48,
-                "padding-block-end": 48,
-                "padding-inline-start": 16,
-                "padding-inline-end": 16
+                "border_radius": 4,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {
                 "cs3_icon": {
                   "type": "icon",
                   "settings": {
                     "icon": "question_mark",
-                    "width": 40,
+                    "width": 32,
                     "icon_color": "{{ settings.color_palette.color1 }}",
                     "link": ""
-                  }
-                },
-                "cs3_badge": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Coming Soon</p>",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "0.85rem",
-                    "line_height": "tight",
-                    "letter_spacing": "normal",
-                    "case": "uppercase",
-                    "wrap": "pretty",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "text_color": "{{ settings.color_palette.background }}",
-                    "background": true,
-                    "background_color": "{{ settings.color_palette.color1 }}",
-                    "corner_radius": 50,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0
                   }
                 }
               },
               "block_order": [
-                "cs3_icon",
-                "cs3_badge"
+                "cs3_icon"
               ]
+            },
+            "cs3_label": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Coming Soon</p>",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              }
             }
           },
           "block_order": [
-            "cs3_media"
+            "cs3_media",
+            "cs3_label"
           ]
         }
       },
       "block_order": [
+        "cs_style",
         "cs1_card",
         "cs2_card",
         "cs3_card"
       ],
       "settings": {
         "content_direction": "row",
-        "vertical_on_mobile": true,
+        "vertical_on_mobile": false,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
-        "gap": 16,
+        "gap": 8,
         "section_width": "page-width",
         "background_color": "",
         "padding-block-start": 0,
