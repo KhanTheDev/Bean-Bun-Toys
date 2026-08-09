@@ -102,7 +102,7 @@
           "type": "custom-liquid",
           "name": "t:names.custom_liquid",
           "settings": {
-            "custom_liquid": "<style>#shopify-section-hero_jVaWmY{position:sticky;top:0;z-index:0;}#shopify-section-section_EXiexb{position:relative;z-index:1;background:var(--color-background);}.text-block--text_riVq8d h2{line-height:0.72 !important;}</style>"
+            "custom_liquid": "<style>#shopify-section-hero_jVaWmY{position:sticky;top:0;z-index:0;}#shopify-section-section_EXiexb{position:relative;z-index:1;background:var(--color-background);}.text-block--text_riVq8d h2{line-height:0.5 !important;}</style>"
           },
           "blocks": {}
         },
