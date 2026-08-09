@@ -231,205 +231,6 @@
         "padding-block-end": 64
       }
     },
-    "product_list_fa6P9H": {
-      "type": "product-list",
-      "blocks": {
-        "static-header": {
-          "type": "_product-list-content",
-          "name": "t:names.header",
-          "static": true,
-          "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
-            "align_baseline": true,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "background_media": "none",
-            "background_color": "",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_list_text_YFtzcL": {
-              "type": "_product-list-text",
-              "name": "t:names.collection_title",
-              "settings": {
-                "text": "<h3>Bean Pals</h3>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "product_list_button_MWeP9V": {
-              "type": "_product-list-button",
-              "name": "t:names.product_list_button",
-              "settings": {
-                "label": "View all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "custom_button_background": "{{ settings.color_palette.foreground }}",
-                "custom_button_text": "{{ settings.color_palette.background }}",
-                "custom_button_border": "{{ settings.color_palette.background }}",
-                "link_text_color": "",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_list_text_YFtzcL",
-            "product_list_button_MWeP9V"
-          ]
-        },
-        "static-product-card": {
-          "type": "_product-card",
-          "name": "t:names.product_card",
-          "static": true,
-          "settings": {
-            "product_card_gap": 4,
-            "background_color": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_677WP3": {
-              "type": "_product-card-gallery",
-              "name": "t:names.product_card_media",
-              "settings": {
-                "image_ratio": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_color": "",
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "product_title_YXxMTj": {
-              "type": "product-title",
-              "name": "t:names.product_title",
-              "settings": {
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "price_JQzVV4": {
-              "type": "price",
-              "name": "t:names.product_price",
-              "settings": {
-                "show_sale_price_first": true,
-                "show_installments": false,
-                "show_tax_info": false,
-                "type_preset": "h6",
-                "width": "100%",
-                "alignment": "left",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "text_color": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_677WP3",
-            "product_title_YXxMTj",
-            "price_JQzVV4"
-          ]
-        }
-      },
-      "name": "t:names.product_list",
-      "settings": {
-        "collection": "all",
-        "layout_type": "grid",
-        "carousel_on_mobile": false,
-        "max_products": 8,
-        "columns": 4,
-        "mobile_columns": "2",
-        "mobile_card_size": "60cqw",
-        "columns_gap": 8,
-        "rows_gap": 24,
-        "icons_style": "arrow",
-        "icons_shape": "none",
-        "section_width": "page-width",
-        "horizontal_alignment": "flex-start",
-        "gap": 28,
-        "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 48,
-        "padding-block-end": 24
-      }
-    },
     "benefits_bbt01": {
       "type": "section",
       "blocks": {
@@ -1044,20 +845,20 @@
         "padding-block-end": 64
       }
     },
-    "coming_soon_bbt01": {
+    "bean_pals_bbt01": {
       "type": "section",
       "name": "t:names.section",
       "blocks": {
-        "cs_html": {
+        "bp_html": {
           "type": "custom-liquid",
           "name": "t:names.custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .coming-soon-grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 8px;\n  }\n  .coming-soon-card {\n    display: flex;\n  }\n  .coming-soon-card__box {\n    width: 100%;\n    aspect-ratio: 1 / 1;\n    background: #EDE3F7;\n    border-radius: 4px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .coming-soon-card__box svg {\n    width: 32px;\n    height: 32px;\n    color: var(--color-foreground, #2E1A3D);\n  }\n  .coming-soon-card__inner {\n    display: flex;\n    flex-direction: column;\n    gap: 4px;\n    width: 100%;\n  }\n  .coming-soon-card__label {\n    font-family: var(--font-body--family);\n    font-size: 1rem;\n    text-align: left;\n  }\n  @media screen and (max-width: 749px) {\n    .coming-soon-grid {\n      grid-template-columns: repeat(2, 1fr);\n      row-gap: 24px;\n    }\n  }\n</style>\n<div class=\"coming-soon-grid\">\n  <div class=\"coming-soon-card\">\n    <div class=\"coming-soon-card__inner\">\n      <div class=\"coming-soon-card__box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"16.5\" r=\"0.6\" fill=\"currentColor\"/></svg>\n      </div>\n      <span class=\"coming-soon-card__label\">Coming Soon</span>\n    </div>\n  </div>\n  <div class=\"coming-soon-card\">\n    <div class=\"coming-soon-card__inner\">\n      <div class=\"coming-soon-card__box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"16.5\" r=\"0.6\" fill=\"currentColor\"/></svg>\n      </div>\n      <span class=\"coming-soon-card__label\">Coming Soon</span>\n    </div>\n  </div>\n  <div class=\"coming-soon-card\">\n    <div class=\"coming-soon-card__inner\">\n      <div class=\"coming-soon-card__box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"16.5\" r=\"0.6\" fill=\"currentColor\"/></svg>\n      </div>\n      <span class=\"coming-soon-card__label\">Coming Soon</span>\n    </div>\n  </div>\n</div>"
+            "custom_liquid": "{%- liquid\n  assign product = all_products['aubie-the-eggplant-nook']\n-%}\n<style>\n  .bean-pals-heading {\n    font-family: var(--font-heading--family);\n    font-size: 2rem;\n    margin: 0 0 16px 0;\n  }\n  .bean-pals-grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 8px;\n  }\n  .bean-pals-card {\n    display: flex;\n    flex-direction: column;\n    gap: 4px;\n    text-decoration: none;\n    color: inherit;\n  }\n  .bean-pals-card__box {\n    width: 100%;\n    aspect-ratio: 1 / 1;\n    border-radius: 4px;\n    overflow: hidden;\n    background: #EDE3F7;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .bean-pals-card__box img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n  .bean-pals-card__box svg {\n    width: 32px;\n    height: 32px;\n    color: var(--color-foreground, #2E1A3D);\n  }\n  .bean-pals-card__label {\n    font-family: var(--font-body--family);\n    font-size: 1rem;\n    text-align: left;\n  }\n  .bean-pals-card__price {\n    font-family: var(--font-body--family);\n    font-size: 1rem;\n    text-align: left;\n  }\n  @media screen and (max-width: 749px) {\n    .bean-pals-grid {\n      grid-template-columns: repeat(2, 1fr);\n      row-gap: 24px;\n    }\n  }\n</style>\n<h3 class=\"bean-pals-heading\">Bean Pals</h3>\n<div class=\"bean-pals-grid\">\n  <a href=\"{{ product.url }}\" class=\"bean-pals-card\">\n    <div class=\"bean-pals-card__box\">\n      <img src=\"{{ product.featured_image | image_url: width: 600 }}\" alt=\"{{ product.title | escape }}\" loading=\"lazy\">\n    </div>\n    <span class=\"bean-pals-card__label\">{{ product.title }}</span>\n    <span class=\"bean-pals-card__price\">{{ product.price | money }}</span>\n  </a>\n  <div class=\"bean-pals-card\">\n    <div class=\"bean-pals-card__box\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"16.5\" r=\"0.6\" fill=\"currentColor\"/></svg>\n    </div>\n    <span class=\"bean-pals-card__label\">Coming Soon</span>\n  </div>\n  <div class=\"bean-pals-card\">\n    <div class=\"bean-pals-card__box\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"16.5\" r=\"0.6\" fill=\"currentColor\"/></svg>\n    </div>\n    <span class=\"bean-pals-card__label\">Coming Soon</span>\n  </div>\n  <div class=\"bean-pals-card\">\n    <div class=\"bean-pals-card__box\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"16.5\" r=\"0.6\" fill=\"currentColor\"/></svg>\n    </div>\n    <span class=\"bean-pals-card__label\">Coming Soon</span>\n  </div>\n</div>"
           }
         }
       },
       "block_order": [
-        "cs_html"
+        "bp_html"
       ],
       "settings": {
         "content_direction": "column",
@@ -1067,15 +868,14 @@
         "gap": 8,
         "section_width": "page-width",
         "background_color": "",
-        "padding-block-start": 0,
+        "padding-block-start": 32,
         "padding-block-end": 48
       }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_fa6P9H",
-    "coming_soon_bbt01",
+    "bean_pals_bbt01",
     "about_bbt01",
     "benefits_bbt01",
     "newsletter_bbt01"
