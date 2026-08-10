@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "hero_jVaWmY": {
       "type": "hero",
@@ -847,7 +848,6 @@
     },
     "bean_pals_bbt01": {
       "type": "section",
-      "name": "t:names.section",
       "blocks": {
         "bp_html": {
           "type": "custom-liquid",
@@ -860,6 +860,7 @@
       "block_order": [
         "bp_html"
       ],
+      "name": "t:names.section",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -871,6 +872,57 @@
         "padding-block-start": 32,
         "padding-block-end": 48
       }
+    },
+    "lifestyle_bbt01": {
+      "type": "section",
+      "blocks": {
+        "ls_image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/aubie-lifestyle-reading.webp",
+            "image_ratio": "adapt",
+            "width": "100%",
+            "border_radius": 16
+          }
+        },
+        "ls_caption": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aubie's favorite spot for story time.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0
+          }
+        }
+      },
+      "block_order": [
+        "ls_image",
+        "ls_caption"
+      ],
+      "name": "t:names.section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 0,
+        "padding-block-end": 48
+      }
     }
   },
   "order": [
@@ -878,6 +930,7 @@
     "bean_pals_bbt01",
     "about_bbt01",
     "benefits_bbt01",
+    "lifestyle_bbt01",
     "newsletter_bbt01"
   ]
 }
