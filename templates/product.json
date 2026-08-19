@@ -465,10 +465,38 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "reviews_bbt01": {
+      "type": "section",
+      "name": "t:names.section",
+      "blocks": {
+        "rv_html": {
+          "type": "custom-liquid",
+          "name": "t:names.custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .reviews-section {\n    max-width: 640px;\n    margin: 0 auto;\n    text-align: center;\n    padding: 8px 16px;\n  }\n  .reviews-heading {\n    font-family: var(--font-heading--family);\n    font-size: 1.75rem;\n    margin: 0 0 8px 0;\n  }\n  .reviews-stars {\n    display: flex;\n    justify-content: center;\n    gap: 4px;\n    margin-bottom: 12px;\n  }\n  .reviews-stars svg {\n    width: 22px;\n    height: 22px;\n    color: #C9B8DE;\n  }\n  .reviews-empty {\n    font-family: var(--font-body--family);\n    color: #6B5A7A;\n    font-size: 0.95rem;\n    margin: 0 0 20px 0;\n  }\n  .reviews-cta {\n    display: inline-block;\n    font-family: var(--font-body--family);\n    font-size: 0.9rem;\n    font-weight: 600;\n    color: #2E1A3D;\n    border: 1px solid #2E1A3D;\n    border-radius: 100px;\n    padding: 10px 24px;\n    text-decoration: none;\n  }\n</style>\n<div class=\"reviews-section\">\n  <h3 class=\"reviews-heading\">Reviews</h3>\n  <div class=\"reviews-stars\">\n    {% for i in (1..5) %}\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M12 2.5l2.9 6.3 6.9.7-5.1 4.8 1.4 6.8L12 17.8 5.9 21.1l1.4-6.8-5.1-4.8 6.9-.7L12 2.5z\"/></svg>\n    {% endfor %}\n  </div>\n  <p class=\"reviews-empty\">No reviews yet — Aubie is one-of-a-kind, and so will his first review be.</p>\n  <a href=\"/pages/contact\" class=\"reviews-cta\">Be the first to review</a>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "rv_html"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "gap": 8,
+        "section_width": "page-width",
+        "background_color": "",
+        "padding-block-start": 32,
+        "padding-block-end": 32
+      }
     }
   },
   "order": [
     "main",
+    "reviews_bbt01",
     "product_recommendations_qggXJq"
   ]
 }
