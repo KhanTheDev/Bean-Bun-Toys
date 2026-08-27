@@ -179,6 +179,7 @@
         var reveal = [];
         sections.forEach(function (section) {
           if (section.id.indexOf('__hero_') !== -1) return;
+          if (section.id.indexOf('__reviews_bbt01') !== -1) return;
           section.classList.add('scroll-reveal');
           reveal.push(section);
         });
